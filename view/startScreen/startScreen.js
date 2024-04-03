@@ -13,3 +13,6 @@ The example view is alive!
 'font-size: 1.2em; padding-bottom: 0.2em',
 appContext,
 );
+
+const { screen } = appContext;
+screen.setReady();
