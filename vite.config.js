@@ -15,7 +15,7 @@ export default defineConfig({
     rollupOptions: {
       input: [
         resolve(process.cwd(), 'main.js'),
-        resolve(process.cwd(), 'view/myCustomView/myCustomView.html'),
+        resolve(process.cwd(), 'view/startScreen/startScreen.html'),
       ],
       output: {
         entryFileNames: (chunkInfo) => {

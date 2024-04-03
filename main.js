@@ -13,5 +13,5 @@ The example app is alive!
 'font-size: 1.2em; font-weight: bold;',
 'font-size: 1.2em; padding-bottom: 0.2em',
 appContext,
-new URL('./view/myCustomView/myCustomView.html', new URL(import.meta.url)).href,
+new URL('./view/startScreen/startScreen.html', new URL(import.meta.url)).href,
 );
