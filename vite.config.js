@@ -1,14 +1,16 @@
 import { resolve, relative } from 'path';
 import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react';
 import bambuserBamUIPlugin from '@bambuser/vite-plugin-bam-ui';
 import bambuserAppDevEnvPlugin from '@bambuser/vite-plugin-bam-app-dev-env';
 import bambuserAppRuntimePlugin from '@bambuser/vite-plugin-bam-app-runtime';
 
 export default defineConfig({
   plugins: [
+    react(),
     bambuserBamUIPlugin(),
     bambuserAppRuntimePlugin(),
-    bambuserAppDevEnvPlugin()
+    bambuserAppDevEnvPlugin(),
   ],
   build: {
     target: 'es2022',
