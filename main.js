@@ -11,3 +11,15 @@ if (screenApi) {
     }
   });
 }
+
+const { toolApi } = appContext;
+const tool = await toolApi.createTool({
+  label: 'My tool',
+  viewUrl: new URL('./view/myTool/myTool.html', new URL(import.meta.url)).href,
+});
+tool.on('open', () => {
+  console.log('My tool opened');
+});
+tool.on('close', () => {
+  console.log('My tool was closed');
+});
