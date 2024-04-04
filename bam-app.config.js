@@ -13,12 +13,18 @@ export default {
       "screens": [{
         "id": "start",
         "slot": "pre-enter",
+      }, {
+        "id": "another",
+        "slot": "pre-enter",
       }]
     },
     "callsWidget": {
       "screens": [{
         "id": "start",
         "slot": "drop-in",
+      }, {
+        "id": "another",
+        "slot": "pre-media-permissions",
       }]
     },
   }

@@ -8,6 +8,13 @@ if (screenApi) {
         id,
         viewUrl: new URL('./view/startScreen/startScreen.html', new URL(import.meta.url)).href,
       });
+    } else if (id === 'another') {
+      return await screenApi.createScreen({
+        id,
+        viewUrl: new URL('./view/anotherScreen/anotherScreen.html', new URL(import.meta.url)).href,
+      });
+    } else {
+      console.warn(`An unhandled screen "${id}" was requested, endless spinner will be shown...`);
     }
   });
 }
