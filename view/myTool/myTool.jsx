@@ -14,18 +14,18 @@ const App = () => {
       <div className="bam-container">
         {hostId === 'showsPlayer' && (
           <>
-            <p>This is a custom tool for shopper in Bambuser One-to-Many.</p>
-            <p>The app is also built to support Bambuser One-to-One and provides the same custom views. Just switch to either <b>1:1 Widget</b> or <b>1:1 Agent Tool</b> in the upper right corner and then open <b>My tool</b> in the <b>"..." More</b> menu.</p>
+            <p>This is a custom tool for shoppers in Bambuser Live Player.</p>
+            <p>The app is also built to support Bambuser Video Consultation and provides the same custom views. Just switch to either <b>Calls Widget</b> or <b>Agent Tool</b> in the upper right corner and then open <b>My tool</b> in the <b>"..." More</b> menu.</p>
           </>
         )}
         {hostId === 'callsWidget' && (
           <>
-            <p>This is a custom tool for shopper in Bambuser One-to-One.</p>
-            <p>You can also go to <a href="http://localhost:5173/devenv/?screen=pre-call#callsWidget" target='_blank'>http://localhost:5173/devenv/?screen=pre-call#callsWidget</a> and see the custom pre-call screens provided by the app for One-to-One.</p>
+            <p>This is a custom tool for shoppers in Bambuser Video Consultation.</p>
+            <p>You can also go to <a href="http://localhost:5173/devenv/?screen=pre-call#callsWidget" target='_blank'>http://localhost:5173/devenv/?screen=pre-call#callsWidget</a> and see the custom pre-call screens provided by the app for Video Consultation.</p>
           </>
         )}
         {hostId === 'callsAgentTool' && (
-          <p>This is a custom tool for agent in Bambuser One-to-One.</p>
+          <p>This is a custom tool for agent in Bambuser Video Consultation.</p>
         )}
       </div>
       <p>Edit this tool in <b>view/myTool/myTool.jsx</b> 🚧</p>
