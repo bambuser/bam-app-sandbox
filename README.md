@@ -3,7 +3,7 @@
 This is a getting started sandbox where you can see and modify the code to build and try out your first Bam App
 
 Requirements:
-* Node.js v18+
+* Node.js v20+
 
 # Local development server
 
