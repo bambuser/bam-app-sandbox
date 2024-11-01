@@ -15,7 +15,7 @@ const App = () => {
         {hostId === 'showsPlayer' && (
           <>
             <p>This is a custom tool for shoppers in Bambuser Live Player.</p>
-            <p>The app is also built to support Bambuser Video Consultation and provides the same custom views. Just switch to either <b>1:1 Widget</b> or <b>1:1 Agent Tool</b> in the upper right corner and then open <b>My tool</b> in the <b>"..." More</b> menu.</p>
+            <p>The app is also built to support Bambuser Video Consultation and provides the same custom views. Just switch to either <b>Calls Widget</b> or <b>Agent Tool</b> in the upper right corner and then open <b>My tool</b> in the <b>"..." More</b> menu.</p>
           </>
         )}
         {hostId === 'callsWidget' && (
